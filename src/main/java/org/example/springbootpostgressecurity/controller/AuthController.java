@@ -57,8 +57,6 @@ public class AuthController {
         try {
             manager.authenticate(authentication);
 
-
-
         } catch (BadCredentialsException e) {
             throw new BadCredentialsException(" Invalid Username or Password  !!");
         }

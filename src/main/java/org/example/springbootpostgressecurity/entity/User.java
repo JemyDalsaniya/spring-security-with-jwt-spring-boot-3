@@ -7,6 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
+import java.util.Set;
 
 @Entity
 @NoArgsConstructor
@@ -23,5 +24,4 @@ public class User {
     private String username;
     private String password;
     private String role;
-
 }
